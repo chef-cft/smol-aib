@@ -1,0 +1,336 @@
+
+Creating Airgap Installation Bundle...
+  Downloading core/hab/1.6.139/20200824142405 binary
+  ┤       ┘       ┴       └       ├       ┌       Downloaded core/hab/1.6.139/20200824142405 binary
+  Downloading chef/mlsa/1.0.1/20200421170200
+  ┤       Downloaded chef/mlsa/1.0.1/20200421170200
+  Downloading chef-20160614114050
+  ┤       Downloaded chef-20160614114050
+  Downloading chef/automate-platform-tools/0.1.0/20201014121307
+  ┤       ┘       ┴       └       ├       Downloaded chef/automate-platform-tools/0.1.0/20201014121307
+  Downloading core/busybox-static/1.31.0/20200306011713
+  ┤       Downloaded core/busybox-static/1.31.0/20200306011713
+  Downloading core-20200219002627
+  ┤       Downloaded core-20200219002627
+  Downloading chef/applications-service/1.0.0/20201014121555
+  ┤       ┘       Downloaded chef/applications-service/1.0.0/20201014121555
+  Downloading core/bash/5.0.16/20200305233030
+  ┤       Downloaded core/bash/5.0.16/20200305233030
+  Downloading core/glibc/2.29/20200305172459
+  ┤       Downloaded core/glibc/2.29/20200305172459
+  Downloading core/linux-headers/4.19.62/20200305172241
+  ┤       Downloaded core/linux-headers/4.19.62/20200305172241
+  Downloading core/ncurses/6.1/20200305230210
+  ┤       Downloaded core/ncurses/6.1/20200305230210
+  Downloading core/readline/8.0/20200305232850
+  ┤       Downloaded core/readline/8.0/20200305232850
+  Downloading chef/authn-service/0.1.0/20201014121651
+  ┤       Downloaded chef/authn-service/0.1.0/20201014121651
+  Downloading chef/authz-service/0.1.0/20201014121634
+  ┤       Downloaded chef/authz-service/0.1.0/20201014121634
+  Downloading habitat/builder-api-proxy/8997/20200812161534
+  ┤       Downloaded habitat/builder-api-proxy/8997/20200812161534
+  Downloading habitat-20180129222536
+  ┤       Downloaded habitat-20180129222536
+  Downloading core/acl/2.2.53/20200305230628
+  ┤       Downloaded core/acl/2.2.53/20200305230628
+  Downloading core/attr/2.4.48/20200305230504
+  ┤       Downloaded core/attr/2.4.48/20200305230504
+  Downloading core/bzip2/1.0.8/20200305225842
+  ┤       Downloaded core/bzip2/1.0.8/20200305225842
+  Downloading core/cacerts/2020.01.01/20200306005234
+  ┤       Downloaded core/cacerts/2020.01.01/20200306005234
+  Downloading core/coreutils/8.30/20200305231640
+  ┤       Downloaded core/coreutils/8.30/20200305231640
+  Downloading core/curl/7.68.0/20200601114640
+  ┤       Downloaded core/curl/7.68.0/20200601114640
+  Downloading core-20180119235000
+  ┤       Downloaded core-20180119235000
+  Downloading core/gcc-libs/9.1.0/20200305225533
+  ┤       Downloaded core/gcc-libs/9.1.0/20200305225533
+  Downloading core/gmp/6.1.2/20200305175803
+  ┤       Downloaded core/gmp/6.1.2/20200305175803
+  Downloading core/libcap/2.27/20200305230759
+  ┤       Downloaded core/libcap/2.27/20200305230759
+  Downloading core/libedit/3.1.20150325/20200319193649
+  ┤       Downloaded core/libedit/3.1.20150325/20200319193649
+  Downloading core/nghttp2/1.40.0/20200506083229
+  ┤       Downloaded core/nghttp2/1.40.0/20200506083229
+  Downloading core/nginx/1.18.0/20200506101012
+  ┤       Downloaded core/nginx/1.18.0/20200506101012
+  Downloading core/openssl-fips/2.0.16/20200306005307
+  ┤       Downloaded core/openssl-fips/2.0.16/20200306005307
+  Downloading core/openssl/1.0.2t/20200306005450
+  ┤       Downloaded core/openssl/1.0.2t/20200306005450
+  Downloading core/pcre/8.42/20200305232429
+  ┤       Downloaded core/pcre/8.42/20200305232429
+  Downloading core/zlib/1.2.11/20200305174519
+  ┤       Downloaded core/zlib/1.2.11/20200305174519
+  Downloading chef/automate-builder-api-proxy/0.1.0/20201014121422
+  ┤       Downloaded chef/automate-builder-api-proxy/0.1.0/20201014121422
+  Downloading habitat/builder-api/9034/20200827185135
+  ┤       ┘       ┴       Downloaded habitat/builder-api/9034/20200827185135
+  Downloading core/zeromq/4.3.1/20200319192759
+  ┤       Downloaded core/zeromq/4.3.1/20200319192759
+  Downloading core/libarchive/3.4.2/20200504153654
+  ┤       Downloaded core/libarchive/3.4.2/20200504153654
+  Downloading core/postgresql/9.6.11/20200319211920
+  ┤       Downloaded core/postgresql/9.6.11/20200319211920
+  Downloading core/libsodium/1.0.18/20200319192446
+  ┤       Downloaded core/libsodium/1.0.18/20200319192446
+  Downloading core/xz/5.2.4/20200306001321
+  ┤       Downloaded core/xz/5.2.4/20200306001321
+  Downloading core/db/5.3.28/20200305234355
+  ┤       Downloaded core/db/5.3.28/20200305234355
+  Downloading core/gdal/2.4.0/20200319195235
+  ┤       Downloaded core/gdal/2.4.0/20200319195235
+  Downloading core/gdbm/1.18.1/20200305234038
+  ┤       Downloaded core/gdbm/1.18.1/20200305234038
+  Downloading core/geos/3.7.1/20200319194146
+  ┤       Downloaded core/geos/3.7.1/20200319194146
+  Downloading core/less/530/20200305235121
+  ┤       Downloaded core/less/530/20200305235121
+  Downloading core/libossp-uuid/1.6.2/20200319193820
+  ┤       Downloaded core/libossp-uuid/1.6.2/20200319193820
+  Downloading core/libxml2/2.9.10/20200319193941
+  ┤       Downloaded core/libxml2/2.9.10/20200319193941
+  Downloading core/perl/5.30.0/20200305235250
+  ┤       Downloaded core/perl/5.30.0/20200305235250
+  Downloading core/proj/4.9.3/20200319195031
+  ┤       Downloaded core/proj/4.9.3/20200319195031
+  Downloading chef/automate-builder-api/0.1.0/20201014121425
+  ┤       Downloaded chef/automate-builder-api/0.1.0/20201014121425
+  Downloading core/libevent/2.0.22/20200319193514
+  ┤       Downloaded core/libevent/2.0.22/20200319193514
+  Downloading core/openssl11/1.1.0l/20200403171702
+  ┤       Downloaded core/openssl11/1.1.0l/20200403171702
+  Downloading core-20200331193006
+  ┤       Downloaded core-20200331193006
+  Downloading chef/automate-builder-memcached/1.5.19/20201014121204
+  ┤       Downloaded chef/automate-builder-memcached/1.5.19/20201014121204
+  Downloading chef/automate-cds/0.1.0/20201014121425
+  ┤       Downloaded chef/automate-cds/0.1.0/20201014121425
+  Downloading chef/automate-cli/0.1.0/20201014121215
+  ┤       Downloaded chef/automate-cli/0.1.0/20201014121215
+  Downloading core/dex/2.24.0/20200513145409
+  ┤       Downloaded core/dex/2.24.0/20200513145409
+  Downloading chef/automate-dex/0.1.0/20201014121626
+  ┤       Downloaded chef/automate-dex/0.1.0/20201014121626
+  Downloading chef/automate-openjdk/11.0.2/20200504205816
+  ┤       ┘       ┴       └       ├       ┌       ┬       ┐       ┤       Downloaded chef/automate-openjdk/11.0.2/20200504205816
+  Downloading chef/automate-platform-tools/0.1.0/20200929123151
+  ┤       ┘       Downloaded chef/automate-platform-tools/0.1.0/20200929123151
+  Downloading core/libxau/1.0.8/20200404023747
+  ┤       Downloaded core/libxau/1.0.8/20200404023747
+  Downloading core/libxcb/1.12/20200404125816
+  ┤       Downloaded core/libxcb/1.12/20200404125816
+  Downloading core/libxdmcp/1.1.2/20200404023643
+  ┤       Downloaded core/libxdmcp/1.1.2/20200404023643
+  Downloading core/libxext/1.3.3/20200404200720
+  ┤       Downloaded core/libxext/1.3.3/20200404200720
+  Downloading core/libxi/1.7.9/20200404225735
+  ┤       Downloaded core/libxi/1.7.9/20200404225735
+  Downloading core/libxrender/0.9.10/20200404225629
+  ┤       Downloaded core/libxrender/0.9.10/20200404225629
+  Downloading core/libxtst/1.2.3/20200404234737
+  ┤       Downloaded core/libxtst/1.2.3/20200404234737
+  Downloading core/xlib/1.6.5/20200404200238
+  ┤       Downloaded core/xlib/1.6.5/20200404200238
+  Downloading chef/automate-elasticsearch/6.8.3/20200929123629
+  ┤       ┘       ┴       └       ├       ┌       ┬       Downloaded chef/automate-elasticsearch/6.8.3/20200929123629
+  Downloading chef/automate-es-gateway/0.1.0/20201014121623
+  ┤       Downloaded chef/automate-es-gateway/0.1.0/20201014121623
+  Downloading core/jq-static/1.6/20200404003518
+  ┤       Downloaded core/jq-static/1.6/20200404003518
+  Downloading chef/automate-gateway/0.1.0/20201014121216
+  ┤       Downloaded chef/automate-gateway/0.1.0/20201014121216
+  Downloading chef/automate-load-balancer/0.1.0/20201014120454
+  ┤       Downloaded chef/automate-load-balancer/0.1.0/20201014120454
+  Downloading core/minio/2020-06-01T17-28-03Z/20200604014640
+  ┤       Downloaded core/minio/2020-06-01T17-28-03Z/20200604014640
+  Downloading chef/automate-minio/0.1.0/20201014121422
+  ┤       Downloaded chef/automate-minio/0.1.0/20201014121422
+  Downloading core/netcat-openbsd/1.105/20200403185400
+  ┤       Downloaded core/netcat-openbsd/1.105/20200403185400
+  Downloading core/haproxy/2.2.2/20200903011659
+  ┤       Downloaded core/haproxy/2.2.2/20200903011659
+  Downloading core/libbsd/0.9.1/20200306015546
+  ┤       Downloaded core/libbsd/0.9.1/20200306015546
+  Downloading chef/automate-pg-gateway/0.0.1/20201014120515
+  ┤       Downloaded chef/automate-pg-gateway/0.0.1/20201014120515
+  Downloading chef/automate-postgresql/9.6.11/20200929122522
+  ┤       Downloaded chef/automate-postgresql/9.6.11/20200929122522
+  Downloading core/prometheus/2.13.1/20200403142101
+  ┤       ┘       Downloaded core/prometheus/2.13.1/20200403142101
+  Downloading chef/automate-prometheus/0.1.0/20201014120503
+  ┤       Downloaded chef/automate-prometheus/0.1.0/20201014120503
+  Downloading chef/automate-ui/2.0.0/20201014120551
+  ┤       Downloaded chef/automate-ui/2.0.0/20201014120551
+  Downloading chef/backup-gateway/0.1.0/20201014121646
+  ┤       Downloaded chef/backup-gateway/0.1.0/20201014121646
+  Downloading chef/cereal-service/0.1.0/20201014121439
+  ┤       Downloaded chef/cereal-service/0.1.0/20201014121439
+  Downloading chef/inspec/4.23.4/20200909235900
+  ┤       ┘       Downloaded chef/inspec/4.23.4/20200909235900
+  Downloading core/grpcurl/1.5.1/20200429091136
+  ┤       Downloaded core/grpcurl/1.5.1/20200429091136
+  Downloading chef/automate-compliance-profiles/1.0.0/20200921111130
+  ┤       Downloaded chef/automate-compliance-profiles/1.0.0/20200921111130
+  Downloading core/git/2.26.2/20200601121014
+  ┤       Downloaded core/git/2.26.2/20200601121014
+  Downloading core/ruby/2.5.7/20200404130135
+  ┤       Downloaded core/ruby/2.5.7/20200404130135
+  Downloading core/expat/2.2.7/20200305234221
+  ┤       Downloaded core/expat/2.2.7/20200305234221
+  Downloading core/gettext/0.20.1/20200306001518
+  ┤       Downloaded core/gettext/0.20.1/20200306001518
+  Downloading core/openssh/7.5p1/20200319192011
+  ┤       Downloaded core/openssh/7.5p1/20200319192011
+  Downloading core/binutils/2.32/20200305174809
+  ┤       Downloaded core/binutils/2.32/20200305174809
+  Downloading core/grep/3.3/20200305232635
+  ┤       Downloaded core/grep/3.3/20200305232635
+  Downloading core/libffi/3.2.1/20200310021445
+  ┤       Downloaded core/libffi/3.2.1/20200310021445
+  Downloading core/libtool/2.4.6/20200305233901
+  ┤       Downloaded core/libtool/2.4.6/20200305233901
+  Downloading core/libyaml/0.1.7/20200404040327
+  ┤       Downloaded core/libyaml/0.1.7/20200404040327
+  Downloading core/nss-myhostname/0.3/20200403172913
+  ┤       Downloaded core/nss-myhostname/0.3/20200403172913
+  Downloading core/sed/4.5/20200305230928
+  ┤       Downloaded core/sed/4.5/20200305230928
+  Downloading chef/compliance-service/1.11.1/20201014121601
+  ┤       Downloaded chef/compliance-service/1.11.1/20201014121601
+  Downloading chef/config-mgmt-service/0.1.0/20201014121606
+  ┤       Downloaded chef/config-mgmt-service/0.1.0/20201014121606
+  Downloading chef/data-feed-service/1.0.0/20201014121439
+  ┤       Downloaded chef/data-feed-service/1.0.0/20201014121439
+  Downloading chef/data-lifecycle-service/0.0.1/20191101111721
+  ┤       Downloaded chef/data-lifecycle-service/0.0.1/20191101111721
+  Downloading core/hab/1.6.139/20200824142405
+  ┤       Downloaded core/hab/1.6.139/20200824142405
+  Downloading core/net-tools/1.60/20200403225919
+  ┤       Downloaded core/net-tools/1.60/20200403225919
+  Downloading core/procps-ng/3.3.15/20200305231457
+  ┤       Downloaded core/procps-ng/3.3.15/20200305231457
+  Downloading core/util-linux/2.34/20200306003119
+  ┤       Downloaded core/util-linux/2.34/20200306003119
+  Downloading core/certstrap/v1.1.1/20200404022025
+  ┤       Downloaded core/certstrap/v1.1.1/20200404022025
+  Downloading core/findutils/4.6.0/20200306000932
+  ┤       Downloaded core/findutils/4.6.0/20200306000932
+  Downloading core/rsync/3.1.3/20200404014552
+  ┤       Downloaded core/rsync/3.1.3/20200404014552
+  Downloading core/tar/1.32/20200305233447
+  ┤       Downloaded core/tar/1.32/20200305233447
+  Downloading core/postgresql11-client/11.8/20200706162222
+  ┤       Downloaded core/postgresql11-client/11.8/20200706162222
+  Downloading core/gawk/5.0.1/20200305233704
+  ┤       Downloaded core/gawk/5.0.1/20200305233704
+  Downloading core/mpfr/4.0.1/20200305180218
+  ┤       Downloaded core/mpfr/4.0.1/20200305180218
+  Downloading chef/deployment-service/0.1.0/20201014121623
+  ┤       Downloaded chef/deployment-service/0.1.0/20201014121623
+  Downloading chef/es-sidecar-service/1.0.0/20201014121216
+  ┤       Downloaded chef/es-sidecar-service/1.0.0/20201014121216
+  Downloading chef/event-feed-service/1.0.0/20201014121439
+  ┤       Downloaded chef/event-feed-service/1.0.0/20201014121439
+  Downloading chef/event-gateway/0.1.0/20201014121626
+  ┤       Downloaded chef/event-gateway/0.1.0/20201014121626
+  Downloading chef/event-service/0.1.0/20201014121623
+  ┤       Downloaded chef/event-service/0.1.0/20201014121623
+  Downloading chef/infra-proxy-service/0.1.0/20201014121425
+  ┤       Downloaded chef/infra-proxy-service/0.1.0/20201014121425
+  Downloading chef/ingest-service/0.1.0/20201014121611
+  ┤       Downloaded chef/ingest-service/0.1.0/20201014121611
+  Downloading chef/license-control-service/1.0.0/20201014121611
+  ┤       Downloaded chef/license-control-service/1.0.0/20201014121611
+  Downloading chef/local-user-service/0.1.0/20201014121205
+  ┤       Downloaded chef/local-user-service/0.1.0/20201014121205
+  Downloading chef/nodemanager-service/1.0.0/20201014121611
+  ┤       Downloaded chef/nodemanager-service/1.0.0/20201014121611
+  Downloading chef/notifications-service/1.0.0/20201014121424
+  ┤       ┘       Downloaded chef/notifications-service/1.0.0/20201014121424
+  Downloading core/postgresql/9.6.11/20190305213451
+  ┤       Downloaded core/postgresql/9.6.11/20190305213451
+  Downloading core/sqitch_pg/3.7.4/20190305225225
+  ┤       Downloaded core/sqitch_pg/3.7.4/20190305225225
+  Downloading core/acl/2.2.53/20190115012136
+  ┤       Downloaded core/acl/2.2.53/20190115012136
+  Downloading core/attr/2.4.48/20190115012129
+  ┤       Downloaded core/attr/2.4.48/20190115012129
+  Downloading core/bash/4.4.19/20190115012619
+  ┤       Downloaded core/bash/4.4.19/20190115012619
+  Downloading core/bzip2/1.0.6/20190115011950
+  ┤       Downloaded core/bzip2/1.0.6/20190115011950
+  Downloading core/cacerts/2018.12.05/20190115014206
+  ┤       Downloaded core/cacerts/2018.12.05/20190115014206
+  Downloading core/coreutils/8.30/20190115012313
+  ┤       Downloaded core/coreutils/8.30/20190115012313
+  Downloading core/cpanminus/1.7040/20190116012620
+  ┤       Downloaded core/cpanminus/1.7040/20190116012620
+  Downloading core/db/5.3.28/20190115012845
+  ┤       Downloaded core/db/5.3.28/20190115012845
+  Downloading core/gcc-libs/8.2.0/20190115011926
+  ┤       Downloaded core/gcc-libs/8.2.0/20190115011926
+  Downloading core/gdal/2.2.1/20190115172005
+  ┤       Downloaded core/gdal/2.2.1/20190115172005
+  Downloading core/gdbm/1.17/20190115012826
+  ┤       Downloaded core/gdbm/1.17/20190115012826
+  Downloading core/geos/3.7.1/20190205061756
+  ┤       Downloaded core/geos/3.7.1/20190205061756
+  Downloading core/glibc/2.27/20190115002733
+  ┤       Downloaded core/glibc/2.27/20190115002733
+  Downloading core/gmp/6.1.2/20190115003943
+  ┤       Downloaded core/gmp/6.1.2/20190115003943
+  Downloading core/less/530/20190115013008
+  ┤       Downloaded core/less/530/20190115013008
+  Downloading core/libcap/2.25/20190115012150
+  ┤       Downloaded core/libcap/2.25/20190115012150
+  Downloading core/libossp-uuid/1.6.2/20190115171615
+  ┤       Downloaded core/libossp-uuid/1.6.2/20190115171615
+  Downloading core/libxml2/2.9.8/20190115154829
+  ┤       Downloaded core/libxml2/2.9.8/20190115154829
+  Downloading core/linux-headers/4.17.12/20190115002705
+  ┤       Downloaded core/linux-headers/4.17.12/20190115002705
+  Downloading core/local-lib/2.000019/20190116012618
+  ┤       Downloaded core/local-lib/2.000019/20190116012618
+  Downloading core/ncurses/6.1/20190115012027
+  ┤       Downloaded core/ncurses/6.1/20190115012027
+  Downloading core/openssl-fips/2.0.16/20190115014207
+  ┤       Downloaded core/openssl-fips/2.0.16/20190115014207
+  Downloading core/openssl/1.0.2r/20190305210149
+  ┤       Downloaded core/openssl/1.0.2r/20190305210149
+  Downloading core/pcre/8.42/20190115012526
+  ┤       Downloaded core/pcre/8.42/20190115012526
+  Downloading core/perl/5.28.0/20190115013014
+  ┤       Downloaded core/perl/5.28.0/20190115013014
+  Downloading core/postgresql-client/9.6.11/20190305213520
+  ┤       Downloaded core/postgresql-client/9.6.11/20190305213520
+  Downloading core/proj/4.9.3/20190115171931
+  ┤       Downloaded core/proj/4.9.3/20190115171931
+  Downloading core/readline/7.0.3/20190115012607
+  ┤       Downloaded core/readline/7.0.3/20190115012607
+  Downloading core/sqitch/0.9994/20190130114230
+  ┤       Downloaded core/sqitch/0.9994/20190130114230
+  Downloading core/zlib/1.2.11/20190115003728
+  ┤       Downloaded core/zlib/1.2.11/20190115003728
+  Downloading chef/pg-sidecar-service/0.0.1/20201014121623
+  ┤       Downloaded chef/pg-sidecar-service/0.0.1/20201014121623
+  Downloading chef/secrets-service/1.0.0/20201014121548
+  ┤       Downloaded chef/secrets-service/1.0.0/20201014121548
+  Downloading chef/session-service/0.1.0/20201014121548
+  ┤       Downloaded chef/session-service/0.1.0/20201014121548
+  Downloading chef/teams-service/0.1.0/20201014121534
+  ┤       Downloaded chef/teams-service/0.1.0/20201014121534
+  Downloading core/hab-sup/1.6.139/20200824150001
+  ┤       Downloaded core/hab-sup/1.6.139/20200824150001
+  Downloading core/hab-launcher/14385/20200824150050
+  ┤       Downloaded core/hab-launcher/14385/20200824150050
+Success: Your Automate Install Bundle has been written to automate-20201014203946.aib. To install the
+bundle on an Internet-disconnected server, copy the bundle and the chef-automate tool
+to the server and run
+
+chef-automate deploy --airgap-bundle </path/to/bundle>
+
